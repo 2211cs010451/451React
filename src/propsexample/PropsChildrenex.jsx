@@ -1,17 +1,22 @@
-import React from 'react'
+// SubChildProps.js
+import React from 'react';
 
-const PropsChildrenex = (props) => {
-    console.log(props);
+const SubChildProps = () => {
+  return <div>SubChildProps Component</div>;
+};
+
+export default SubChildProps;
+
+// PropsChildrenex.js
+import React from 'react';
+
+const PropsChildrenex = ({ username, company, children }) => {
   return (
-
     <div>
-        <h1>{props.username}</h1>
-        <h3>{props.company}</h3>
-        {
-            props.children
-        }
+      <h2>{username} works at {company}</h2>
+      {children}
     </div>
-  )
-}
+  );
+};
 
-export default PropsChildrenex
+export default PropsChildrenex;
