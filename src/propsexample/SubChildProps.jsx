@@ -5,4 +5,4 @@ const SubChildProps=()=>{
     )
 }
 
-export default SubChildProps
+export default SubChildProps;
