@@ -85,7 +85,7 @@ import PropsChildrenex from './propexample/PropsChildrenex'
 const App = () => {
   return (
     <div>
-      <PropsChildrenex  username="Bhanu Prasad" company="meta">
+      <PropsChildrenex  username="charan" company="meta">
         <h1>Welcome charan</h1>
         <SubChildProps></SubChildProps>
       </PropsChildrenex>
